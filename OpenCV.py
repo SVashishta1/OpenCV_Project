@@ -3,7 +3,6 @@
 import cv2
 import numpy as np
 from ultralytics import YOLO
-import torch
 
 print(torch.backends.mps.is_available())
 cap = cv2.VideoCapture("Video.mp4")
